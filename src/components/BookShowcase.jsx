@@ -17,7 +17,10 @@ const SPINE_COLORS = [
 ]
 
 export function BookShowcase({ books = [] }) {
-  const [activeIndex, setActiveIndex] = useState(4)
+  const [activeIndex, setActiveIndex] = useState(() => {
+    // Set to 0 on mobile, 4 on desktop
+    return window.innerWidth < 768 ? 0 : 4
+  })
   const containerRef = useRef(null)
   const booksContainerRef = useRef(null)
   const wheelTimeoutRef = useRef(null)
@@ -125,18 +128,18 @@ export function BookShowcase({ books = [] }) {
   return (
     <section className="bg-stone/40 overflow-hidden" aria-label="Books showcase">
       {/* Header Section */}
-      <div className="container mx-auto px-8 py-12 lg:py-16 pb-6 lg:pb-8 flex items-start justify-between">
-        <div className="flex-1 pr-8">
-          <h1 className="font-canopee font-normal text-4xl lg:text-5xl xl:text-6xl text-ink uppercase leading-none mb-0">
-            Lesté es una librería independiente ubicada en Almendro, Herbarium. Dirigida por la gran cumpleañera Delfi Quetto.
-          </h1>
-        </div>
-        <div className="flex-shrink-0">
+      <div className="container mx-auto px-8 py-12 lg:py-16 pb-6 lg:pb-8 flex flex-col md:flex-row items-center md:items-start justify-between gap-6 md:gap-0">
+        <div className="flex-shrink-0 order-1 md:order-2">
           <img 
             src="/assets/SVG/logo.svg" 
             alt="Leste Logo" 
             className="w-32 h-32 lg:w-40 lg:h-40"
           />
+        </div>
+        <div className="flex-1 md:pr-8 order-2 md:order-1 text-center md:text-left">
+          <h1 className="font-canopee font-normal text-4xl lg:text-5xl xl:text-6xl text-ink uppercase leading-none mb-0">
+            Lesté es una librería independiente ubicada en Almendro, Herbarium. Dirigida por la gran cumpleañera Delfi Quetto.
+          </h1>
         </div>
       </div>
 
@@ -164,9 +167,9 @@ export function BookShowcase({ books = [] }) {
                 key={`${book.name}-${book.author}-${index}`}
                 className={`flex-shrink-0 rounded-xl flex items-center justify-center overflow-hidden ${!isActive ? 'cursor-pointer hover:-translate-y-2 hover:scale-[1.01]' : ''}`}
                 style={{
-                  width: width,
-                  minWidth: width,
-                  height: BOOK_HEIGHT,
+                  width: window.innerWidth < 768 ? (isActive ? '25vw' : width) : (isActive ? 'min(40vw, 400px)' : width),
+                  minWidth: window.innerWidth < 768 ? (isActive ? '25vw' : width) : (isActive ? 'min(40vw, 400px)' : width),
+                  height: window.innerWidth < 768 ? '45vh' : BOOK_HEIGHT,
                   backgroundColor: color,
                   transition: 'width 0.5s ease-out, min-width 0.5s ease-out',
                   willChange: 'width',
@@ -191,24 +194,24 @@ export function BookShowcase({ books = [] }) {
                 aria-label={isActive ? `Open: ${book.name} by ${book.author}` : `Book: ${book.name}, click to open`}
               >
                 {isActive ? (
-                  <div className="w-full h-full flex flex-col justify-between p-10 lg:p-12 text-white text-left">
+                  <div className="w-full h-full flex flex-col justify-between p-6 md:p-10 lg:p-12 text-white text-left">
                     <div>
-                      <h3 className="font-canopee font-normal text-4xl lg:text-5xl xl:text-6xl leading-tight mb-5 lg:mb-6">
+                      <h3 className="font-canopee font-normal text-2xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight mb-3 md:mb-5 lg:mb-6">
                         {book.name}
                       </h3>
-                      <p className="font-canopee font-normal text-xl lg:text-2xl xl:text-3xl opacity-90">{book.author}</p>
+                      <p className="font-canopee font-normal text-base md:text-xl lg:text-2xl xl:text-3xl opacity-90">{book.author}</p>
                     </div>
-                    <p className="font-canopee font-normal text-lg lg:text-xl xl:text-2xl opacity-80">{book.editorial || '—'}</p>
+                    <p className="font-canopee font-normal text-sm md:text-lg lg:text-xl xl:text-2xl opacity-80">{book.editorial || '—'}</p>
                   </div>
                 ) : (
                   <div
-                    className="flex flex-row justify-between items-center px-4 py-8 w-full h-full text-white"
+                    className="flex flex-row justify-between items-center p-1 md:px-4 md:py-8 w-full h-full text-white"
                     style={{ writingMode: 'vertical-rl', textOrientation: 'mixed', transform: 'rotate(180deg)' }}
                   >
-                    <span className="font-canopee font-normal text-lg lg:text-xl [text-orientation:mixed] text-center">
+                    <span className="font-canopee font-normal text-sm md:text-lg lg:text-xl [text-orientation:mixed] text-center">
                       {book.name}
                     </span>
-                    <span className="font-canopee font-normal text-base lg:text-lg uppercase tracking-wider opacity-90 [text-orientation:mixed]">
+                    <span className="font-canopee font-normal text-xs md:text-base lg:text-lg uppercase tracking-wider opacity-90 [text-orientation:mixed]">
                       {book.author}
                     </span>
                   </div>

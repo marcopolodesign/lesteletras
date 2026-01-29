@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import gsap from 'gsap'
 
 const SPINE_WIDTH = 72
+const SPINE_WIDTH_MOBILE = 48
 const OPEN_WIDTH = 400
 const BOOK_HEIGHT = 680
 const GAP = 12
@@ -159,7 +160,8 @@ export function BookShowcase({ books = [] }) {
         >
           {books.map((book, index) => {
             const isActive = index === activeIndex
-            const width = isActive ? OPEN_WIDTH : SPINE_WIDTH
+            const isMobile = window.innerWidth < 768
+            const collapsedWidth = isMobile ? SPINE_WIDTH_MOBILE : SPINE_WIDTH
             const color = SPINE_COLORS[index % SPINE_COLORS.length]
 
             return (
@@ -167,8 +169,8 @@ export function BookShowcase({ books = [] }) {
                 key={`${book.name}-${book.author}-${index}`}
                 className={`flex-shrink-0 rounded-xl flex items-center justify-center overflow-hidden ${!isActive ? 'cursor-pointer hover:-translate-y-2 hover:scale-[1.01]' : ''}`}
                 style={{
-                  width: window.innerWidth < 768 ? (isActive ? '25vw' : width) : (isActive ? 'min(40vw, 400px)' : width),
-                  minWidth: window.innerWidth < 768 ? (isActive ? '25vw' : width) : (isActive ? 'min(40vw, 400px)' : width),
+                  width: isMobile ? (isActive ? '25vw' : collapsedWidth) : (isActive ? 'min(40vw, 400px)' : collapsedWidth),
+                  minWidth: isMobile ? (isActive ? '25vw' : collapsedWidth) : (isActive ? 'min(40vw, 400px)' : collapsedWidth),
                   height: window.innerWidth < 768 ? '45vh' : BOOK_HEIGHT,
                   backgroundColor: color,
                   transition: 'width 0.5s ease-out, min-width 0.5s ease-out',
@@ -205,7 +207,7 @@ export function BookShowcase({ books = [] }) {
                   </div>
                 ) : (
                   <div
-                    className="flex flex-row justify-between items-center p-1 md:px-4 md:py-8 w-full h-full text-white"
+                    className="flex flex-row justify-between items-center p-2 md:px-4 md:py-8 w-full h-full text-white"
                     style={{ writingMode: 'vertical-rl', textOrientation: 'mixed', transform: 'rotate(180deg)' }}
                   >
                     <span className="font-canopee font-normal text-sm md:text-lg lg:text-xl [text-orientation:mixed] text-center">

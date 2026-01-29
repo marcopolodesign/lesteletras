@@ -1,0 +1,847 @@
+[
+  {
+    "editorial": "Editorial Marciana",
+    "name": "Hombres sin mujeres",
+    "author": "Ernest Hemingway"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "Otra cosa es permanecer",
+    "author": "Romina Paula"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "Desintegración en una caja",
+    "author": "Sebastián Martínez Daniell"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "Una nube viene",
+    "author": "Manuel Álvarez"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "Carcoma",
+    "author": "Layla Martínez"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "El ruido de una época",
+    "author": "Ariana Harwicz"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "Passing",
+    "author": "Nella Larsen"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "Cerca de la savia",
+    "author": "Marina do Pico"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "Tierra fresca de su tumba",
+    "author": "Giovanna Rivero"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "Italpark",
+    "author": "Mariano Favier"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "La soledad, los viajes, el deseo",
+    "author": "Eloy Tizón"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "Quedate conmigo",
+    "author": "I Acevedo"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "Arroyo",
+    "author": "Susana Pampín"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "La ciudad invencible",
+    "author": "Fernanda Trías"
+  },
+  {
+    "editorial": "Editorial Marciana",
+    "name": "La azotea",
+    "author": "Fernanda Trías"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "¿Hola? Un réquiem para el teléfono",
+    "author": "Martín Kohan"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Apuntes sobre la supresión general de los partidos políticos",
+    "author": "Simone Weil"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Arte, literatura y revolución (2da ed.)",
+    "author": "Mao Tse-Tung"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Belacqua",
+    "author": "Samuel Beckett"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Bibliotecas",
+    "author": "AA.VV."
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Carta de una desconocida",
+    "author": "Stefan Zweig"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Ciudad Feminista",
+    "author": "Leslie Kern"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Cuentos Completos (2da ed)",
+    "author": "Virginia Woolf"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Dublineses",
+    "author": "James Joyce"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "El amor de Erika Ewald",
+    "author": "Stefan Zweig"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "El ciclo del refugio",
+    "author": "Peter Rock"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "El innombrable",
+    "author": "Samuel Beckett"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "El origen de las especias",
+    "author": "Thomas Reinertsen Berg"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Flaperas y filósofos",
+    "author": "Francis Scott Fitzgerald"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "La familia",
+    "author": "Gustavo Ferreyra"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "La gentrificación es inevitable y otras mentiras",
+    "author": "Leslie Kern"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "La habitación de Jacob",
+    "author": "Virginia Woolf"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Las excéntricas",
+    "author": "Virginia Woolf"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "La vida secreta de las plantas",
+    "author": "Peter Tompkins y Cristopher Bird"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Los artistas y la política",
+    "author": "Virginia Woolf"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Por la causa de las mujeres",
+    "author": "María Montessori"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Reflexiones sobre las causas de la libertad y de la opresión social (ed 2021)",
+    "author": "Simone Weil"
+  },
+  {
+    "editorial": "Editorial Godot",
+    "name": "Sumario de plantas oficiosas. Un ensayo sobre la flora",
+    "author": "Efrén Giraldo"
+  },
+  {
+    "editorial": "Gourmet musical",
+    "name": "La Máquina de Hacer Pájaros. Charly, el rock progresivo y la dictadura",
+    "author": "Nicolás Igarzábal"
+  },
+  {
+    "editorial": "Gourmet musical",
+    "name": "Los Piojos en los 90",
+    "author": "Juan Cruz Revello"
+  },
+  {
+    "editorial": "Gourmet musical",
+    "name": "Luis Alberto Spinetta: mito y mitología",
+    "author": "Mara Favoretto"
+  },
+  {
+    "editorial": "Gourmet musical",
+    "name": "Pensar la música desde América Latina (ed 2021)",
+    "author": "Juan Pablo González"
+  },
+  {
+    "editorial": "Gourmet musical",
+    "name": "Xul Solar, un músico visual (3ra ed)",
+    "author": "Cintia Cristiá"
+  },
+  {
+    "editorial": "Editorial Sigilo",
+    "name": "Budín del cielo",
+    "author": "María Luque"
+  },
+  {
+    "editorial": "Editorial Sigilo",
+    "name": "Cometierra",
+    "author": "Dolores Reyes"
+  },
+  {
+    "editorial": "Editorial Sigilo",
+    "name": "Corazón geométrico",
+    "author": "María Luque"
+  },
+  {
+    "editorial": "Editorial Sigilo",
+    "name": "Desierto sonoro",
+    "author": "Valeria Luiselli"
+  },
+  {
+    "editorial": "Editorial Sigilo",
+    "name": "El poeta de Gaza",
+    "author": "Yishai Sarid"
+  },
+  {
+    "editorial": "Editorial Sigilo",
+    "name": "El último lobo",
+    "author": "László Krasznahorkai"
+  },
+  {
+    "editorial": "Editorial Sigilo",
+    "name": "La otra hija",
+    "author": "Santiago La Rosa"
+  },
+  {
+    "editorial": "Editorial Sigilo",
+    "name": "La segunda venida de Hilda Bustamante",
+    "author": "Salomé Esper"
+  },
+  {
+    "editorial": "Editorial Sigilo",
+    "name": "Los sorrentinos",
+    "author": "Virginia Higa"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Autorretrato",
+    "author": "Celia Paul"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Brat",
+    "author": "Gabriel Smith"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Cartas a Gwen John",
+    "author": "Celia Paul"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Daybook. Diario de una artista",
+    "author": "Anne Truitt"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Diarios",
+    "author": "Katherine Mansfield"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Dorayaki",
+    "author": "Durian Sukegawa"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "El gran jardín",
+    "author": "Lola Randl"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "La casa en llamas",
+    "author": "Ann Beattie"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "La vida después",
+    "author": "Donald Antrim"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Los años de espera",
+    "author": "Fumiko Enchi"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Ni una palabra",
+    "author": "Caroline Blackwood"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Pequeñas bestias",
+    "author": "Brandon Taylor"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Relatos",
+    "author": "Debora Eisenberg"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Taj Mahal",
+    "author": "Debora Eisenberg"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Todo lo que encontré en la playa",
+    "author": "Cynan Jones"
+  },
+  {
+    "editorial": "Chai Editora",
+    "name": "Vida real",
+    "author": "Brandon Taylor"
+  },
+  {
+    "editorial": "El Gato y la Caja",
+    "name": "El nudo de la conciencia",
+    "author": "Enzo Tagliazucchi"
+  },
+  {
+    "editorial": "El Gato y la Caja",
+    "name": "La invención de la comida",
+    "author": "Ezequiel Arrieta"
+  },
+  {
+    "editorial": "El Gato y la Caja",
+    "name": "Las ceremonias. Crónicas de personas que usan drogas",
+    "author": "Marcos Aramburu"
+  },
+  {
+    "editorial": "El Gato y la Caja",
+    "name": "Ok, Pandora. Seis ensayos sobre inteligencia artificial",
+    "author": "AA.VV."
+  },
+  {
+    "editorial": "El Gato y la Caja",
+    "name": "¡Eureka! Un libro bajo el agua",
+    "author": "Laura Wittner - Pupé"
+  },
+  {
+    "editorial": "El Gato y la Caja",
+    "name": "Una vuelta completa. En busca del tesoro de la tierra",
+    "author": "Eduardo Abel Giménez - Ciervo"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "El viaje de la mariposa",
+    "author": "Sandra Siemens Flavia Garnica"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Pantuflas de perrito (tapa rústica semirigida)",
+    "author": "Isol Jorge Luján"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Tres Huevos azules",
+    "author": "Cristina Macjus"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Animales escondidos",
+    "author": "Gusti Lola Casas"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Dos gatos",
+    "author": "Gusti Luis Pescetti"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "El tiburón Kanishka",
+    "author": "Koufequin"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "La luna de Candela",
+    "author": "Mey Magdalena Fleitas"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "La luna está llena",
+    "author": "Diego Bianki"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Numeroso",
+    "author": "Yael Frankel"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Pajarada",
+    "author": "Güido Ferro Nicolás Schuff"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Ríe chinito",
+    "author": "Mey Dolores Aguirre"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Run Run de la casa, el",
+    "author": "Ruth Kaufman - Diego Bianki"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Agua salada",
+    "author": "Manolo Hidalgo Pequeños escritores"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Arrorró",
+    "author": "Cristian Turdera Ruth Kaufman"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Canción de las preguntas",
+    "author": "José Sebastián Tallón y Pablo Elías"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Pandilla",
+    "author": "Marroquín Lucía Gabriela Larralde"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "El secreto de Borges",
+    "author": "Diego Alterleib Matías Alinovi"
+  },
+  {
+    "editorial": "Pequeño Editor",
+    "name": "Abecedario",
+    "author": "Ruth Kaufman; Raquel Franco; Diego Bianki"
+  },
+  {
+    "editorial": "Barrett",
+    "name": "Carrusel",
+    "author": "Berta Dávila"
+  },
+  {
+    "editorial": "Barrett",
+    "name": "Cómo acabar con la escritura de las mujeres",
+    "author": "Joanna Russ"
+  },
+  {
+    "editorial": "Barrett",
+    "name": "Cuadernos de humo sagrado",
+    "author": "Alan Moore"
+  },
+  {
+    "editorial": "Leteo",
+    "name": "35 Sonetos ingleses",
+    "author": "Fernando Pessoa"
+  },
+  {
+    "editorial": "Leteo",
+    "name": "Doctor Glas",
+    "author": "Hjalmar Söderberg"
+  },
+  {
+    "editorial": "Leteo",
+    "name": "Estrella negra",
+    "author": "Mariana Docampo"
+  },
+  {
+    "editorial": "Leteo",
+    "name": "Los perplejos",
+    "author": "Cynthia Rimsky"
+  },
+  {
+    "editorial": "Leteo",
+    "name": "Noche cerrada, mar abierto",
+    "author": "Juan Duizeide"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Heavy",
+    "author": "Agustina Schuster y Ariel Magnus"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Canción llevame lejos",
+    "author": "Mauro Libertella"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "El fin es el fin del sol",
+    "author": "Marina Gersberg"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "El nido infernal",
+    "author": "Mónica Müller"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Poesía estructurada",
+    "author": "Cecilia Pavón"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Unidad mínima de familia",
+    "author": "Julieta Habif"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Nuestro plan de fiesta",
+    "author": "Jazmín Barrera y Camila Fabri"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Carrera de fondo",
+    "author": "Nadine Lifschitz"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "El libro de las fobias",
+    "author": "AA.VV"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Monstruos",
+    "author": "Gabriela Urrutibehety"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Ya está. Variaciones sobre Messi",
+    "author": "José Santamarina"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Coronada",
+    "author": "Nicolás Baintrub"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Desubicados",
+    "author": "María Sonia Cristoff"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Match",
+    "author": "Pablo Ottonello"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "La pizarra mágica",
+    "author": "Virginia Cosin"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Todos los hombres que fui",
+    "author": "María Pérez"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Las calles",
+    "author": "Mariana Ruiz Johnson"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "El libro de los elogios",
+    "author": "AA.VV"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Unos ojos recién inaugurados",
+    "author": "Martín Felipe Castagnet"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Pequeño tratado sobre la amistad",
+    "author": "Joana D'Alessio"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Sobre lo natural",
+    "author": "Mónica Müller"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Tan temprano",
+    "author": "Florencia Gattari"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "El libro de las diatribas",
+    "author": "AA.VV"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Doce pasos hacia mí",
+    "author": "Sofía Balbuena"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Motorhome",
+    "author": "Diego Dubcovsky"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "¿Y si no es suficiente?",
+    "author": "Maia Debowicz"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Yo también soy una mosca",
+    "author": "Esteban Serrano"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "La pasión y la condena",
+    "author": "Juan Villoro"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Música para librerías",
+    "author": "Hernán Lucas"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Padres e hijos",
+    "author": "Roberto Merino"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Parte de la felicidad",
+    "author": "Dolores Gil"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Negro casi azul",
+    "author": "Paula Mariasch"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "Cómo falsificar una sombra",
+    "author": "Matías Serra Bradford"
+  },
+  {
+    "editorial": "Vinilo",
+    "name": "El libro de las adicciones",
+    "author": "AAVV"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Así duermen los delfines",
+    "author": "Verónica Wiñaski y Sofía Wiñaski"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Serena Sirena",
+    "author": "​Melina Pogorelsky Candela Insua"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Bruno a las patadas",
+    "author": "Florencia Gattari Marina Zanollo"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Otto y Vera 1",
+    "author": "Andrés Rapoport Krysthopher Woods"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Otto y Vera 2",
+    "author": "Andrés Rapoport Krysthopher Woods"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Otto y Vera 3",
+    "author": "Andrés Rapoport Krysthopher Woods"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Otto y Vera 4",
+    "author": "Andrés Rapoport Krysthopher Woods"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Otto y Vera 5",
+    "author": "Andrés Rapoport Krysthopher Woods"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Otto y Vera 6",
+    "author": "Andrés Rapoport Krysthopher Woods"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Las super 8. Un misterioso comienzo",
+    "author": "Carolina Romano / Sabina Álvarez Schürmann"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "La super 8. Historias en la nieve",
+    "author": "Melina Pogorelsky"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Las super 8. Diario de la amistad",
+    "author": "Melina Pogorelsky"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Las super 8. Un verano de película",
+    "author": "Melina Pogorelsky"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Las super 8. Sol y luna",
+    "author": "Melina Pogorelsky"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Ana y la maldición de las pecas",
+    "author": "Nicolás Schuff Damián Fraticelli Eliana Iñiguez"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "La venganza de las palomas",
+    "author": "Verónica Chamorro Mirita"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Cualquier verdura",
+    "author": "Nicolás Schuff Gabriela Burin"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Fruta podrida",
+    "author": "Nicolás Schuff Gabriela Burin"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Mago por una semana",
+    "author": "Cecilia Pisos Miranda Rivadaneira"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Nadar perrito",
+    "author": "Florencia Gattari Marina Zanollo"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Los estrambóticos 1",
+    "author": "Nicolás Schuff Damián Fraticelli Jimena Tello"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Los estrambóticos 2",
+    "author": "Nicolás Schuff Damián Fraticelli Jimena Tello"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Los estrambóticos 3",
+    "author": "Nicolás Schuff Damián Fraticelli Jimena Tello"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Astronautas y zapateros",
+    "author": "Nicolás Schuff Paula Maneyro"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "¡Qué bien la pasamos!",
+    "author": "Laura Wittner Cristian Turdera​"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "La piedra lunas",
+    "author": "Verónica Chamorro Mirita"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Saltar soga en la noche",
+    "author": "Roberta Iannamico Pablo Picyk ​"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Mi casa a veces",
+    "author": "Laura Wittner María Elina"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "El mundo se dio vuelta como una media",
+    "author": "Analía Sivak María Sivak ​"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "El blues de los perros",
+    "author": "Pedro Mairal Pablo I Elías"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "El rap de los gatos",
+    "author": "Pedro Mairal Pablo I Elías"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Mi tortugo (fue vernos y querernos)",
+    "author": "Laura Wittner María Elina"
+  },
+  {
+    "editorial": "Ralenti",
+    "name": "Ana y el plan pegajoso",
+    "author": "Nicolás Schuff Damián Fraticelli Eliana Iñiguez"
+  },
+  {
+    "editorial": "Tenemos las máquinas",
+    "name": "Los mejores días",
+    "author": "Magalí Etchebarne"
+  },
+  {
+    "editorial": "Tenemos las máquinas",
+    "name": "Cómo cocinar un lobo",
+    "author": "Magalí Etchebarne"
+  }
+]

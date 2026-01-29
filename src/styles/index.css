@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@font-face {
+  font-family: 'Canopee';
+  src: url('/fonts/canopee.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-canopee {
+  line-height: 1;
+}
+
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-sand text-ink font-sans;
+    font-feature-settings: 'kern' 1;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  * {
+    @apply transition-colors duration-300;
+  }
+
+  h1 {
+    @apply font-serif text-5xl font-semibold tracking-tight leading-tight text-ink;
+  }
+
+  h2 {
+    @apply font-serif text-4xl font-semibold tracking-tight leading-snug text-ink;
+  }
+
+  h3 {
+    @apply font-serif text-2xl font-semibold tracking-tight text-ink;
+  }
+
+  h4 {
+    @apply font-sans text-xl font-semibold text-ink;
+  }
+
+  p {
+    @apply leading-relaxed text-ink;
+  }
+
+  a {
+    @apply text-ink hover:text-muted no-underline;
+  }
+
+  button {
+    @apply outline-none;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-stone/50;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-stone rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted/40;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .gallery-scroll {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .gallery-track {
+    display: flex;
+    gap: 1rem;
+    animation: scroll-left 40s linear infinite;
+  }
+
+  .gallery-item {
+    flex-shrink: 0;
+    width: 450px;
+    height: 450px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  @media (max-width: 768px) {
+    .gallery-item {
+      width: 350px;
+      height: 350px;
+    }
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
